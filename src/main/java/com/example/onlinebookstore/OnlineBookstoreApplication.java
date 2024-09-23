@@ -1,0 +1,15 @@
+package com.example.onlinebookstore;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+//@EntityScan(basePackages = "com.example.onlinebookstore.entity")
+public class OnlineBookstoreApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(OnlineBookstoreApplication.class, args);
+		
+	}
+
+}
